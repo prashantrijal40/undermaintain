@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px;
+}
+
+.maintenance-icon img {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    margin: 20px 0 10px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+    margin: 10px 0;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
